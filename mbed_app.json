@@ -1,10 +1,7 @@
 {
     "target_overrides": {
       "*": {
-        "target.c_lib": "small",
-        "target.printf_lib": "minimal-printf",
-        "platform.minimal-printf-enable-floating-point": true,
-        "platform.stdio-minimal-console-only": true
+        "target.device_has_add": ["USBDEVICE"]
       }
     }
 }
